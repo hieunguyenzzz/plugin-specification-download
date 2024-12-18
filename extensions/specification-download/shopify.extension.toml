@@ -1,0 +1,12 @@
+[[extensions]]
+name = "Specification Download"
+handle = "specification-download"
+type = "flow_trigger"
+
+description = "Trigger when visitor want to download product specification"
+
+[settings]
+
+  [[settings.fields]]
+  type = "single_line_text_field"
+  key = "email"
